@@ -5,6 +5,8 @@ import initTranslations from '@/i18n/utils/i18n';
 import i18nConfig from '../../../i18nConfig';
 import { dir } from 'i18next';
 import ErrorBoundaryWithTranslation from '@/shared/components/ErrorBoundary/ErrorBoundaryWithTranslation/ErrorBoundaryWithTranslation';
+import HeaderSection from '@/modules/HeaderSection/HeaderSection';
+import Footer from '@/modules/Footer/Footer';
 const metadataDict = {
   ua: {
     title:
@@ -72,7 +74,9 @@ export default async function RootLayout({ children, params }) {
           resources={resources}
         >
           <ErrorBoundaryWithTranslation>
+            <HeaderSection />
             <main>{children}</main>
+            <Footer />
           </ErrorBoundaryWithTranslation>
         </TranslationsProvider>
       </body>

@@ -1,5 +1,11 @@
-import LanguageSwitcher from '@/shared/components/LanguageSwitcher/LanguageSwitcher';
 import s from './page.module.scss';
+import AboutSection from '@/modules/AboutSection/AboutSection';
+import ContactSection from '@/modules/ContactSection/ContactSection';
+import FaqSection from '@/modules/FaqSection/FaqSection';
+import HeroSection from '@/modules/HeroSection/HeroSection';
+import PortfolioSection from '@/modules/PortfolioSection/PortfolioSection';
+import ServicesSection from '@/modules/ServicesSection/ServicesSection';
+import TestimonialsSection from '@/modules/TestimonialsSection/TestimonialsSection';
 
 export default async function Home({ params: rawParams }) {
   const params = await rawParams;
@@ -10,8 +16,13 @@ export default async function Home({ params: rawParams }) {
 
   return (
     <div>
-      <LanguageSwitcher />
-      <h2>Hello</h2>
+      <HeroSection />
+      <AboutSection />
+      <ContactSection />
+      <FaqSection />
+      <PortfolioSection />
+      <ServicesSection />
+      <TestimonialsSection />
     </div>
   );
 }
