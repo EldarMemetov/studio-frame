@@ -20,7 +20,7 @@ export default async function Home({ params: rawParams }) {
       <AboutSection />
       <ContactSection />
       <FaqSection />
-      <PortfolioSection />
+      <PortfolioSection locale={locale} />
       <ServicesSection />
       <TestimonialsSection />
     </div>
