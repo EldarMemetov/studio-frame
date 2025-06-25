@@ -1,6 +1,6 @@
 import s from './page.module.scss';
 import AboutSection from '@/modules/AboutSection/AboutSection';
-import ContactSection from '@/modules/ContactSection/ContactSection';
+import Feedback from '@/modules/Feedback/Feedback';
 import FaqSection from '@/modules/FaqSection/FaqSection';
 import HeroSection from '@/modules/HeroSection/HeroSection';
 import PortfolioSection from '@/modules/PortfolioSection/PortfolioSection';
@@ -18,7 +18,7 @@ export default async function Home({ params: rawParams }) {
     <div>
       <HeroSection />
       <AboutSection />
-      <ContactSection />
+      <Feedback />
       <FaqSection />
       <PortfolioSection locale={locale} />
       <ServicesSection />
