@@ -24,6 +24,11 @@ export const LINKDATA = {
 };
 export const LANGUAGES = { UA: 'ua', EN: 'en', DE: 'de' };
 
-export const NAMESPACES = ['privacyPolicy'];
+export const NAMESPACES = [
+  'privacyPolicy',
+  'errorGlobal',
+  'notFound',
+  'OrDevelopment',
+];
 
 export const FLIPPED_TIME_MS = 15000;

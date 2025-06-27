@@ -6,6 +6,7 @@ import HeroSection from '@/modules/HeroSection/HeroSection';
 import PortfolioSection from '@/modules/PortfolioSection/PortfolioSection';
 import ServicesSection from '@/modules/ServicesSection/ServicesSection';
 import TestimonialsSection from '@/modules/TestimonialsSection/TestimonialsSection';
+import OrDevelopment from '@/modules/OrDevelopment/OrDevelopment';
 
 export default async function Home({ params: rawParams }) {
   const params = await rawParams;
@@ -18,11 +19,13 @@ export default async function Home({ params: rawParams }) {
     <div>
       <HeroSection />
       <AboutSection />
-      <Feedback />
+
       <FaqSection />
       <PortfolioSection locale={locale} />
       <ServicesSection />
       <TestimonialsSection />
+      <OrDevelopment locale={locale} />
+      <Feedback />
     </div>
   );
 }
