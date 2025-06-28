@@ -6,20 +6,22 @@ import { postBySlugQuery } from '@/lib/queries';
 export async function generateStaticParams() {
   const posts = await client.fetch(`*[_type == "post"]{ customId }`);
   const locales = ['en', 'ua', 'de'];
-  return posts.flatMap((post) =>
-    locales.map((locale) => ({ id: post.customId.current, locale }))
-  );
+
+  return posts
+    .flatMap((post) =>
+      locales.map((locale) => ({
+        id: post?.customId?.current,
+        locale,
+      }))
+    )
+    .filter((param) => !!param.id);
 }
 
-export default async function BlogIdPageId({ params }) {
+export default async function BlogIdPageId({ params: rawParams }) {
+  const params = await rawParams;
   const { locale, id } = params;
 
-  console.log('Requested locale:', locale);
-  console.log('Requested id:', id);
-
   const post = await client.fetch(postBySlugQuery, { id });
-
-  console.log('Fetched post:', post);
 
   if (!post) {
     return notFound();

@@ -10,7 +10,7 @@ const works = [
 
 export default function PortfolioSection({ locale }) {
   return (
-    <section className={s.section}>
+    <section id="portfolio" className={s.section}>
       <Container>
         <h2>Портфоліо</h2>
         <ul>

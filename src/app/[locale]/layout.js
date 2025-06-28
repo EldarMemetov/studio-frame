@@ -7,6 +7,7 @@ import { dir } from 'i18next';
 import ErrorBoundaryWithTranslation from '@/shared/components/ErrorBoundary/ErrorBoundaryWithTranslation/ErrorBoundaryWithTranslation';
 import HeaderSection from '@/modules/HeaderSection/HeaderSection';
 import Footer from '@/modules/Footer/Footer';
+
 const metadataDict = {
   ua: {
     title:
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }) {
       title: meta.title,
       description: meta.description,
       url: `https://framevix.com/${locale}`,
-      siteName: 'QVRIX',
+      siteName: 'Framevix ',
       locale,
       type: 'website',
     },

@@ -7,9 +7,9 @@ import s from './Logo.module.scss';
 import { useParams } from 'next/navigation';
 
 const localeLabels = {
-  en: 'Home page QVRIX',
-  ua: 'Головна сторінка QVRIX',
-  de: 'Startseite QVRIX',
+  en: 'Home page Framevix ',
+  ua: 'Головна сторінка Framevix ',
+  de: 'Startseite Framevix ',
 };
 
 const Logo = ({ variant = 'header' }) => {
@@ -24,13 +24,13 @@ const Logo = ({ variant = 'header' }) => {
     >
       <Image
         src="/image/logo.png"
-        alt="QVRIX logo"
+        alt="Framevix  logo"
         width={40}
         height={40}
         className={s.logo}
         priority
       />
-      <h2 className={s.logoText}>QVRIX</h2>
+      <h2 className={s.logoText}>Framevix</h2>
     </Link>
   );
 };

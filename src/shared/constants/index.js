@@ -9,6 +9,7 @@ export const ROUTES = {
   FOOTER: 'footer',
   POLICY: 'privacy-policy',
   Blog: 'blog',
+  DEVELOPMENT: 'development',
 };
 export const LINKDATA = {
   HERO: 'hero',
@@ -21,6 +22,7 @@ export const LINKDATA = {
   FOOTER: 'footer',
   POLICY: 'privacy-policy',
   Blog: 'blog',
+  DEVELOPMENT: 'development',
 };
 export const LANGUAGES = { UA: 'ua', EN: 'en', DE: 'de' };
 
@@ -29,6 +31,8 @@ export const NAMESPACES = [
   'errorGlobal',
   'notFound',
   'OrDevelopment',
+  'header',
+  'heroSection',
 ];
 
 export const FLIPPED_TIME_MS = 15000;

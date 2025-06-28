@@ -20,7 +20,7 @@ const Button = ({
       onClick={onClick}
       {...props}
     >
-      <span className={spanClassName}>{children}</span>
+      <span className={s.spanClassName}>{children}</span>
     </Component>
   );
 };

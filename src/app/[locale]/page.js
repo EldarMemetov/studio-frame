@@ -1,12 +1,12 @@
-import s from './page.module.scss';
 import AboutSection from '@/modules/AboutSection/AboutSection';
 import Feedback from '@/modules/Feedback/Feedback';
 import FaqSection from '@/modules/FaqSection/FaqSection';
 import HeroSection from '@/modules/HeroSection/HeroSection';
 import PortfolioSection from '@/modules/PortfolioSection/PortfolioSection';
 import ServicesSection from '@/modules/ServicesSection/ServicesSection';
-import TestimonialsSection from '@/modules/TestimonialsSection/TestimonialsSection';
+
 import OrDevelopment from '@/modules/OrDevelopment/OrDevelopment';
+import ScrollToHash from '@/shared/ScrollToHash/ScrollToHash';
 
 export default async function Home({ params: rawParams }) {
   const params = await rawParams;
@@ -17,15 +17,15 @@ export default async function Home({ params: rawParams }) {
 
   return (
     <div>
-      <HeroSection />
-      <AboutSection />
-
-      <FaqSection />
-      <PortfolioSection locale={locale} />
-      <ServicesSection />
-      <TestimonialsSection />
-      <OrDevelopment locale={locale} />
-      <Feedback />
+      <ScrollToHash>
+        <HeroSection locale={locale} />
+        <AboutSection />
+        <FaqSection />
+        <PortfolioSection locale={locale} />
+        <ServicesSection />
+        <OrDevelopment locale={locale} />
+        <Feedback />
+      </ScrollToHash>
     </div>
   );
 }

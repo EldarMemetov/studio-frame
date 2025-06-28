@@ -13,7 +13,7 @@ export default async function OrDevelopment({ locale }) {
   const developmentData = t('development', { returnObjects: true });
 
   return (
-    <section className={s.section}>
+    <section id="development" className={s.section}>
       <div className={s.background}></div>
       <Container>
         <div>

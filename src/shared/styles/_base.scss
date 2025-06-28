@@ -1,8 +1,15 @@
+/* Fixel Display */
 @font-face {
   font-family: 'Fixel Display';
-  src:
-    local('Fixel Display Regular'),
-    url('/fonts/FixelDisplay-Regular.woff2') format('woff2');
+  src: url('/fonts/FixelDisplay-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fixel Display';
+  src: url('/fonts/FixelDisplay-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -10,47 +17,104 @@
 
 @font-face {
   font-family: 'Fixel Display';
-  src:
-    local('Fixel Display Medium'),
-    url('/fonts/FixelDisplay-Medium.woff2') format('woff2');
+  src: url('/fonts/FixelDisplay-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Manrope */
+@font-face {
+  font-family: 'Manrope';
+  src: url('/fonts/Manrope-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('/fonts/Manrope-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('/fonts/Manrope-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('/fonts/Manrope-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Fixel Display';
-  src:
-    local('Fixel Display SemiBold'),
-    url('/fonts/FixelDisplay-SemiBold.woff2') format('woff2');
+  font-family: 'Manrope';
+  src: url('/fonts/Manrope-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Fixel Display';
-  src:
-    local('Fixel Display Bold'),
-    url('/fonts/FixelDisplay-Bold.woff2') format('woff2');
+  font-family: 'Manrope';
+  src: url('/fonts/Manrope-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
+/* Open Sans */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/OpenSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/OpenSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* e-Ukraine (обычный) */
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('/fonts/e-Ukraine-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
+  --font-family: 'Manrope', sans-serif;
+  --second-family: 'Fixel Display', sans-serif;
+  --third-family: 'Open Sans', sans-serif;
+  --font3: 'e-Ukraine', sans-serif;
+
   font-weight: 400;
   color: #fff;
-
-  background: black;
+  background: #000116;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --font-family: 'Fixel Display', sans-serif;
 }
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {

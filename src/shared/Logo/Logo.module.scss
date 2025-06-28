@@ -24,8 +24,9 @@
 }
 
 .logoText {
-  font-weight: 800;
-  @include font(24, 34);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
   text-transform: uppercase;
 
   .footer & {

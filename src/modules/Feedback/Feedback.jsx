@@ -22,7 +22,7 @@ const FeedbackSchema = Yup.object().shape({
 
 export default function ContactSection() {
   return (
-    <section className={s.section}>
+    <section id="contact" className={s.section}>
       <Container>
         <h2>Feedback</h2>
         <Formik

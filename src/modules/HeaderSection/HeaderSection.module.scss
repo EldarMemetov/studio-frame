@@ -1,8 +1,55 @@
-.section {
-  padding-bottom: 160px;
+.header {
+  padding-top: 44px;
+  padding-bottom: 120px;
   position: relative;
   z-index: 1;
-  @include media(desktop) {
-    padding-bottom: 200px;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.nav {
+  position: relative;
+  border-radius: 48px;
+  padding: 12px 24px;
+  background: rgba(0, 1, 22, 0.5);
+
+  border: none;
+  z-index: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 48px;
+    padding: 1px;
+    background: linear-gradient(
+      to bottom,
+      rgb(255 255 255 / 55%),
+      rgba(255, 255, 255, 0.1)
+    );
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+
+    pointer-events: none;
+    z-index: -1;
   }
+}
+
+.listLink {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+
+  align-items: center;
+  height: 100%;
+}
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
 }
