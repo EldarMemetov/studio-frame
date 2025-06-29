@@ -20,7 +20,7 @@ export default async function Home({ params: rawParams }) {
     <div>
       <ScrollToHash>
         <HeroSection locale={locale} />
-        <DisplayCompanyFacts />
+        <DisplayCompanyFacts locale={locale} />
         <AboutSection />
         <FaqSection />
         <PortfolioSection locale={locale} />

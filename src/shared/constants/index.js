@@ -33,6 +33,7 @@ export const NAMESPACES = [
   'OrDevelopment',
   'header',
   'heroSection',
+  'companyFacts',
 ];
 
 export const FLIPPED_TIME_MS = 15000;

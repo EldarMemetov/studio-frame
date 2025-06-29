@@ -3,8 +3,10 @@ import AnimatedCounter from '@/shared/components/AnimatedCounter/AnimatedCounter
 import s from './DisplayCompanyFacts.module.scss';
 import Image from 'next/image';
 import Particles from '@/shared/components/Particles/Particles';
+import { initServerI18n } from '@/i18n/utils/serverI18n';
 
-export default function DisplayCompanyFacts() {
+export default async function DisplayCompanyFacts({ locale }) {
+  const { t } = await initServerI18n(locale, ['companyFacts']);
   return (
     <section className={s.factsSection}>
       <Particles />
@@ -31,19 +33,19 @@ export default function DisplayCompanyFacts() {
               <h3 className={s.number}>
                 <AnimatedCounter targetNumber={3} duration={1000} />+
               </h3>
-              <p className={s.info}>років досвіду</p>
+              <p className={s.info}>{t('experience')}</p>
             </li>
             <li className={s.item}>
               <h3 className={s.number}>
                 <AnimatedCounter targetNumber={50} duration={1500} />+
               </h3>
-              <p className={s.info}>реалізованих проєктів</p>
+              <p className={s.info}>{t('projects')}</p>
             </li>
             <li className={s.item}>
               <h3 className={s.number}>
                 <AnimatedCounter targetNumber={92} duration={1800} />%
               </h3>
-              <p className={s.info}>клієнтів рекомендують</p>
+              <p className={s.info}>{t('recommend')}</p>
             </li>
           </ul>
         </div>

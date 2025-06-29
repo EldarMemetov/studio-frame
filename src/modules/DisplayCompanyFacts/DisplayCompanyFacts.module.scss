@@ -65,6 +65,7 @@
 .factsSection {
   position: relative;
   overflow: hidden;
+  padding-bottom: 160px;
 }
 
 .particle-canvas {
@@ -101,7 +102,7 @@
 }
 .rays {
   position: absolute;
-  top: -240px;
+  top: -330px;
   left: -200px;
   width: 100%;
   height: 100%;
