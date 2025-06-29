@@ -8,7 +8,13 @@ export default function DisplayCompanyFacts() {
   return (
     <section className={s.factsSection}>
       <Particles />
+
       <Container>
+        <div className={s.rays}>
+          <span className={s.ray}></span>
+          <span className={s.ray}></span>
+          <span className={s.ray}></span>
+        </div>
         <div className={s.factsWrapper}>
           <Image
             id="magic-planet"

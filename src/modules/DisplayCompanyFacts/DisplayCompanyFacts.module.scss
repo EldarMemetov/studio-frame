@@ -8,17 +8,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 52px 107px;
-  width: 100%;
-  max-width: 1280px;
+  width: 1280px;
   height: 228px;
   background: rgb(0 1 22);
 
   border-radius: 200px;
   overflow: hidden;
 }
-
+.factsSection {
+  padding-top: 100px;
+}
 .factsList::before {
   content: '';
   position: absolute;
@@ -98,4 +98,51 @@
   100% {
     background-position: 0% 50%;
   }
+}
+.rays {
+  position: absolute;
+  top: -240px;
+  left: -200px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.ray {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 420px;
+  height: 120%;
+  background: linear-gradient(
+    to bottom,
+    rgba(109, 34, 255, 0) 0%,
+    rgba(109, 34, 255, 0) 25%,
+    rgba(109, 34, 255, 0) 40%,
+    rgb(109 34 255 / 12%) 55%,
+    rgb(109 34 255 / 41%) 65%,
+    rgb(30 144 255 / 82%) 80%,
+    rgb(30 144 255 / 0%) 100%
+  );
+  filter: blur(40px);
+  transform-origin: top center;
+  filter: blur(40px);
+  transform-origin: top center;
+
+  .ray:nth-child(1) {
+    transform: translateX(-50%) rotate(-12deg);
+  }
+  .ray:nth-child(2) {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  .ray:nth-child(3) {
+    transform: translateX(-50%) rotate(12deg);
+  }
+}
+
+.containerContent {
+  position: relative;
+  z-index: 1;
 }

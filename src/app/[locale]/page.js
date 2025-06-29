@@ -7,6 +7,7 @@ import ServicesSection from '@/modules/ServicesSection/ServicesSection';
 
 import OrDevelopment from '@/modules/OrDevelopment/OrDevelopment';
 import ScrollToHash from '@/shared/ScrollToHash/ScrollToHash';
+import DisplayCompanyFacts from '@/modules/DisplayCompanyFacts/DisplayCompanyFacts';
 
 export default async function Home({ params: rawParams }) {
   const params = await rawParams;
@@ -19,6 +20,7 @@ export default async function Home({ params: rawParams }) {
     <div>
       <ScrollToHash>
         <HeroSection locale={locale} />
+        <DisplayCompanyFacts />
         <AboutSection />
         <FaqSection />
         <PortfolioSection locale={locale} />
