@@ -63,7 +63,7 @@
     border-radius: 40px;
     padding: 16px 32px;
     height: 54px;
-    background: rgba(156, 158, 166, 0.17);
+    background: linear-gradient(180deg, #5820ff 0%, #22096d 100%);
 
     @include media(mobile) {
       padding: 12px 16px;
@@ -86,9 +86,100 @@
       background: rgba(1, 7, 42, 0.8);
     }
   }
+  &.variant3 {
+    color: #ffffff;
+    width: 100%;
+    max-width: 292px;
+    border-radius: 40px;
+    padding: 16px 32px;
+    height: 54px;
+
+    @include media(mobile) {
+      padding: 12px 16px;
+      box-sizing: border-box;
+    }
+
+    @include media(tablet) {
+      padding: 8px 40px;
+      width: 165px;
+      height: 37px;
+    }
+
+    @include media(desktop) {
+      padding: 16px 32px;
+      width: 213px;
+      height: 54px;
+    }
+
+    &:hover {
+      background: rgba(156, 158, 166, 0.17);
+    }
+  }
+  &.variant4 {
+    color: #ffffff;
+    width: 100%;
+    max-width: 292px;
+    border-radius: 40px;
+    padding: 16px 32px;
+    height: 54px;
+    background: rgba(156, 158, 166, 0.17);
+
+    @include media(mobile) {
+      padding: 12px 16px;
+      box-sizing: border-box;
+    }
+
+    @include media(tablet) {
+      padding: 8px 40px;
+      width: 165px;
+      height: 37px;
+    }
+
+    @include media(desktop) {
+      padding: 16px 32px;
+      width: 170px;
+      height: 54px;
+    }
+
+    &:hover {
+      background: rgba(1, 7, 42, 0.8);
+    }
+  }
+  &.variant5 {
+    color: #ffffff;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 40px;
+    padding: 16px 32px;
+    height: 54px;
+    background: linear-gradient(180deg, #5820ff 0%, #22096d 100%);
+    margin-left: auto;
+    margin-right: auto;
+    @include media(mobile) {
+      padding: 12px 16px;
+      box-sizing: border-box;
+    }
+
+    @include media(tablet) {
+      padding: 8px 40px;
+      width: 165px;
+      height: 37px;
+    }
+
+    @include media(desktop) {
+      padding: 16px 32px;
+      width: 371px;
+      height: 54px;
+    }
+
+    &:hover {
+      background: rgba(1, 7, 42, 0.8);
+    }
+  }
 }
 .spanClassName {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
+  color: white;
 }

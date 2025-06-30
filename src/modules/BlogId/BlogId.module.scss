@@ -64,6 +64,7 @@
 .backIcon {
   width: 28px;
   height: 28px;
+  margin-right: 10px;
   transform: rotate(225deg);
   @include media(tablet) {
     width: 36px;

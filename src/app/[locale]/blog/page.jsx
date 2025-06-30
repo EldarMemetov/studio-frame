@@ -1,6 +1,7 @@
 import BlogSection from '@/modules/Blog/BlogSection';
 import { client } from '@/lib/sanityClient';
 import { postsQuery } from '@/lib/queries';
+import HeroBlog from '@/modules/HeroBlog/HeroBlog';
 
 export default async function Blog({ params: rawParams }) {
   const params = await rawParams;
@@ -12,6 +13,7 @@ export default async function Blog({ params: rawParams }) {
 
   return (
     <div>
+      <HeroBlog locale={locale} />
       <BlogSection posts={posts} locale={locale} />
     </div>
   );

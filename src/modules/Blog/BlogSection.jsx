@@ -1,9 +1,12 @@
 import { urlFor } from '@/lib/sanityClient';
 import Link from 'next/link';
 import Image from 'next/image';
+import Icon from '@/shared/Icon/Icon';
 import s from './BlogSection.module.scss';
 import Button from '@/shared/components/button/Button';
-export default function BlogSection({ posts = [], locale, readText }) {
+import { initServerI18n } from '@/i18n/utils/serverI18n';
+export default async function BlogSection({ posts = [], locale }) {
+  const { t } = await initServerI18n(locale, ['heroBlog']);
   if (!posts.length) return <p>Нет постов</p>;
 
   return (
@@ -31,7 +34,10 @@ export default function BlogSection({ posts = [], locale, readText }) {
               </p>
 
               <Link href={`/${locale}/blog/${post.customId.current}`} passHref>
-                <Button variant="variant12">{readText}</Button>
+                <Button variant="variant5">
+                  {t('readButton')}{' '}
+                  <Icon iconName="icon-arrows-corner" className={s.icon} />
+                </Button>
               </Link>
             </article>
           </div>

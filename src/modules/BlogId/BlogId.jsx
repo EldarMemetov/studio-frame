@@ -8,7 +8,7 @@ import Icon from '@/shared/Icon/Icon';
 import Link from 'next/link';
 import { initServerI18n } from '@/i18n/utils/serverI18n';
 export default async function BlogId({ post, locale }) {
-  const { t } = await initServerI18n(locale, ['BlogCategoryPage']);
+  const { t } = await initServerI18n(locale, ['heroBlog']);
   return (
     <article>
       <section className={s.hero}>
@@ -32,8 +32,8 @@ export default async function BlogId({ post, locale }) {
         <Container>
           <div>
             <Link href={`/${locale}/blog#blog`} className={s.backLink}>
-              <Icon iconName="icon-arrow" className={s.backIcon} />
-              {t('next')}
+              <Icon iconName="icon-arrows-corner" className={s.backIcon} />
+              {t('allPostsButton')}
             </Link>
           </div>
           <div className={s.article}>
