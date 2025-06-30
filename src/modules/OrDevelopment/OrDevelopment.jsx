@@ -14,13 +14,12 @@ export default async function OrDevelopment({ locale }) {
 
   return (
     <section id="development" className={s.section}>
-      <div className={s.background}></div>
       <Container>
-        <div>
-          <h2 className={s.title}>
-            {t('sectionTitle.before')}
+        <div className={s.containerText}>
+          <div className={s.containerSpan}>
             <span className={s.titleSpan}>{t('sectionTitle.highlight')}</span>
-          </h2>
+          </div>
+          <h2 className={s.title}>{t('sectionTitle.before')}</h2>
           <p className={s.description}>
             {t('introParagraph.text')}
             <span className={s.SpanDescription}>
@@ -66,7 +65,7 @@ export default async function OrDevelopment({ locale }) {
           </h4>
           <div className={s.containerButton}>
             <Link href={`/${LINKDATA.Blog}`}>
-              <Button variant="variant9"> {t('buttons.1.textBlog')} </Button>
+              <Button variant="variant1"> {t('buttons.textBlog')} </Button>
             </Link>
           </div>
         </div>

@@ -1,20 +1,20 @@
 {
   "sectionTitle": {
-    "before": "Constructor or custom development ",
+    "before": "Constructor or development ",
     "highlight": "— what to choose?"
   },
   "introParagraph": {
-    "text": "You can launch a website in just a few days using a constructor or build a complex platform from scratch. ",
-    "textNext": "The key isn’t 'how', but 'why' ",
-    "textAnd": "— the choice depends on your business goals."
+    "text": "You can launch a website in a few days using a constructor or build a complex platform from scratch. ",
+    "textNext": "What matters is not 'how', but why ",
+    "textAnd": "— the choice depends on business goals."
   },
   "constructor": {
     "title": "When to choose a constructor:",
     "list": [
-      "You need a quick launch for an MVP, promo, or landing page",
-      "You have a limited budget",
-      "The task is simple: a business card site or portfolio",
-      "You plan to update it yourself without developers"
+      "Need a quick MVP, promo, or landing launch",
+      "Limited budget",
+      "Simple needs: business card site or portfolio",
+      "Plan to update without developers"
     ],
     "subList": [
       "+ Fast",
@@ -28,27 +28,22 @@
   "development": {
     "title": "When custom development is worth it:",
     "list": [
-      "You need unique functionality",
-      "You want full freedom in design, integrations, and architecture",
-      "The website should grow with the business",
+      "Need unique functionality",
+      "Need full freedom in design, integrations, and architecture",
+      "Website should grow with the business",
       "Priority is security, speed, and SEO"
     ],
     "subList": [
-      "This is the choice for those building not just a website, but a growth tool."
+      "This is a solution for those who are building not just a website, but a growth tool."
     ]
   },
   "conclusion": {
-    "beforeOne": "Don't choose ",
-    "beforeTwo": "“the best” ",
+    "beforeOne": "Don’t choose the ",
+    "beforeTwo": "“best” ",
     "beforeThree": "— choose what ",
-    "beforeFour": "works best for you. "
+    "beforeFour": "works for you."
   },
-  "buttons": [
-    {
-      "textContact": "Let’s talk"
-    },
-    {
-      "textBlog": "Blog"
-    }
-  ]
+  "buttons": {
+    "textBlog": "Read more in the blog"
+  }
 }

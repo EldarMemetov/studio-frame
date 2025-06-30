@@ -6,12 +6,17 @@
     padding-bottom: 200px;
   }
 }
+.containerText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .title {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 130%;
-  text-transform: uppercase;
-  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: center;
+
   @include media(tablet) {
     font-size: 64px;
     line-height: 130%;
@@ -22,11 +27,17 @@
     line-height: 130%;
   }
 }
+.containerSpan {
+  margin-bottom: 24px;
+}
 .titleSpan {
-  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  border-radius: 48px;
+  padding: 8px 20px;
+  background: #000116;
+  border: 1px solid rgb(87, 85, 85);
 }
 
 .description {
@@ -54,16 +65,12 @@
   font-size: 20px;
   line-height: 146%;
   text-align: center;
-
+  margin-top: 30px;
   margin-bottom: 32px;
   @include media(tablet) {
     font-size: 32px;
     line-height: 146%;
     margin-bottom: 40px;
-  }
-  @include media(desktop) {
-    margin-bottom: 0px;
-    text-align: left;
   }
 }
 .spanConclusion {
@@ -71,10 +78,6 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  @include media(tablet) {
-  }
-  @include media(desktop) {
-  }
 }
 .containerConstructor {
   margin-bottom: 64px;
@@ -113,11 +116,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  @include media(desktop) {
-    flex-direction: row;
-    gap: 125px;
   }
 }
 .containerContent {
@@ -160,27 +158,5 @@
 .containerDevelopment {
   @include media(desktop) {
     width: calc(50% - 20px);
-  }
-}
-
-.developmentSubList {
-  @include media(desktop) {
-    margin-top: 100px;
-  }
-}
-.background {
-  position: absolute;
-  top: 40%;
-  left: 0;
-  right: 0;
-  height: calc(50% + 100px);
-  background-image: url('/image/grid.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
-  z-index: -1;
-  @include media(desktop) {
-    top: 30%;
   }
 }
