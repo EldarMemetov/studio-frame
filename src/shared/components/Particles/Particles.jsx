@@ -1,4 +1,5 @@
 'use client';
+import s from './Particles.module.scss';
 import React, { useRef, useEffect } from 'react';
 
 export default function Particles() {
@@ -92,17 +93,5 @@ export default function Particles() {
     };
   }, []);
 
-  return (
-    <canvas
-      ref={canvasRef}
-      className="particle-canvas"
-      style={{
-        position: 'absolute',
-        top: -200,
-        left: 0,
-        pointerEvents: 'none',
-        zIndex: 1,
-      }}
-    />
-  );
+  return <canvas ref={canvasRef} className={s.particleCanvas} />;
 }
