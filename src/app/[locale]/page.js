@@ -8,6 +8,8 @@ import ServicesSection from '@/modules/ServicesSection/ServicesSection';
 import OrDevelopment from '@/modules/OrDevelopment/OrDevelopment';
 import ScrollToHash from '@/shared/ScrollToHash/ScrollToHash';
 import DisplayCompanyFacts from '@/modules/DisplayCompanyFacts/DisplayCompanyFacts';
+import CreateCustomPage from '@/modules/CreateCustomPage/CreateCustomPage';
+import ProcessStep from '@/modules/ProcessStep/ProcessStep';
 
 export default async function Home({ params: rawParams }) {
   const params = await rawParams;
@@ -22,6 +24,8 @@ export default async function Home({ params: rawParams }) {
         <HeroSection locale={locale} />
         <DisplayCompanyFacts locale={locale} />
         <AboutSection />
+        <CreateCustomPage />
+        <ProcessStep />
         <FaqSection />
         <PortfolioSection locale={locale} />
         <ServicesSection />

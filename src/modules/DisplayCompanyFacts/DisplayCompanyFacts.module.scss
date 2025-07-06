@@ -8,13 +8,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 52px 107px;
-  width: 1280px;
-  height: 228px;
+  padding: 48px 24px;
+  width: 338px;
+  height: 170px;
+  max-width: 100%;
   background: rgb(0 1 22);
-
   border-radius: 200px;
   overflow: hidden;
+  @include media(tablet) {
+    padding: 40px;
+    width: 640px;
+    height: 184px;
+  }
+  @include media(desktop) {
+    padding: 52px 107px;
+    width: 1280px;
+    height: 228px;
+  }
 }
 .factsSection {
   padding-top: 100px;
@@ -52,15 +62,29 @@
   gap: 4px;
 }
 .number {
+  font-family: var(--third-family);
   font-weight: 400;
-  font-size: 64px;
+  font-size: 28px;
   text-align: center;
+  @include media(tablet) {
+    font-size: 40px;
+  }
+  @include media(desktop) {
+    font-size: 64px;
+  }
 }
 .info {
   font-family: var(--third-family);
   font-weight: 300;
-  font-size: 24px;
+  font-size: 12px;
   color: #f5f5f5;
+  text-align: center;
+  @include media(tablet) {
+    font-size: 16px;
+  }
+  @include media(desktop) {
+    font-size: 24px;
+  }
 }
 .factsSection {
   position: relative;
@@ -87,6 +111,16 @@
   display: block;
   position: relative;
   z-index: 2;
+  width: 412px;
+  height: 83px;
+  @include media(tablet) {
+    width: 640px;
+    height: 129px;
+  }
+  @include media(desktop) {
+    width: 1150px;
+    height: 226px;
+  }
 }
 
 @keyframes glowGradient {
@@ -102,21 +136,29 @@
 }
 .rays {
   position: absolute;
-  top: -330px;
-  left: -200px;
+  top: -100px;
+  left: -70px;
   width: 100%;
   height: 100%;
   pointer-events: none;
   overflow: hidden;
   z-index: 0;
+  @include media(tablet) {
+    top: -130px;
+    left: -120px;
+  }
+  @include media(desktop) {
+    top: -330px;
+    left: -200px;
+  }
 }
 
 .ray {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 420px;
-  height: 120%;
+  height: 70%;
+  width: 150px;
   background: linear-gradient(
     to bottom,
     rgba(109, 34, 255, 0) 0%,
@@ -131,7 +173,14 @@
   transform-origin: top center;
   filter: blur(40px);
   transform-origin: top center;
-
+  @include media(tablet) {
+    width: 250px;
+    height: 70%;
+  }
+  @include media(desktop) {
+    width: 420px;
+    height: 120%;
+  }
   .ray:nth-child(1) {
     transform: translateX(-50%) rotate(-12deg);
   }

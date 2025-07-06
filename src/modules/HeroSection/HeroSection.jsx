@@ -14,6 +14,7 @@ export default async function HeroSection({ locale }) {
         <div className={s.containerContent}>
           <div className={s.containerIcon}>
             <span className={s.span}>{t('subtitle')}</span>
+            <span className={s.spanMobile}>{t('subtitleMobile')}</span>
             <Link href="/#services" passHref>
               <button className={s.button} type="button">
                 <Icon iconName="icon-arrows-right" className={s.icon} />

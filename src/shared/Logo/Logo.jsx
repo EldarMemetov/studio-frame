@@ -30,7 +30,7 @@ const Logo = ({ variant = 'header' }) => {
         className={s.logo}
         priority
       />
-      <h2 className={s.logoText}>Framevix</h2>
+      <h2 className={s.logoText}>DevMyst</h2>
     </Link>
   );
 };
