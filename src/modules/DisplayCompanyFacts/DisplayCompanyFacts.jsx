@@ -64,7 +64,7 @@ export default async function DisplayCompanyFacts({ locale }) {
   const { t } = await initServerI18n(locale, ['companyFacts']);
   return (
     <section className={s.factsSection}>
-      <Particles />
+      <Particles className={s.particles} />
 
       <Container>
         <div className={s.rays}>
