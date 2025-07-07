@@ -7,7 +7,7 @@ export default function AboutSection() {
   return (
     <section id="about" className={s.section}>
       <Container>
-        <div>
+        <div className={s.BigContainer}>
           <div className={s.aboutContainer}>
             <span className={s.spanAbout}>Про мене</span>
           </div>
