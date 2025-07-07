@@ -79,7 +79,7 @@ export default async function DisplayCompanyFacts({ locale }) {
             alt="planet"
             width={1150}
             height={226}
-            className={s.image}
+            className={`${s.image} magic-planet`}
             priority
           />
           <div className={s.mobileImage}>
@@ -89,7 +89,7 @@ export default async function DisplayCompanyFacts({ locale }) {
               alt="planet"
               width={1150}
               height={226}
-              className={s.imageL}
+              className={`${s.imageL} magic-planet`}
               priority
             />
 
@@ -120,7 +120,7 @@ export default async function DisplayCompanyFacts({ locale }) {
               alt="planet"
               width={1150}
               height={226}
-              className={s.imageR}
+              className={`${s.imageR} magic-planet`}
               priority
             />
           </div>

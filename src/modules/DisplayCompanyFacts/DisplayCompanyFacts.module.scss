@@ -368,8 +368,6 @@
   }
 }
 .rays {
-  display: none;
-
   @include media(tablet) {
     display: block;
     position: absolute;
@@ -389,25 +387,27 @@
 
 .ray {
   position: absolute;
-  top: 0;
-  left: 50%;
-  height: 70%;
-  width: 150px;
+  top: -500px;
+  left: 22%;
+  height: 1200px;
+  width: 200px;
+
   background: linear-gradient(
     to bottom,
     rgba(109, 34, 255, 0) 0%,
     rgba(109, 34, 255, 0) 25%,
     rgba(109, 34, 255, 0) 40%,
-    rgb(109 34 255 / 12%) 55%,
-    rgb(109 34 255 / 41%) 65%,
-    rgb(30 144 255 / 82%) 80%,
-    rgb(30 144 255 / 0%) 100%
+    rgba(109, 34, 255, 0.12) 55%,
+    rgba(109, 34, 255, 0.41) 65%,
+    rgb(77 30 215 / 82%) 80%,
+    rgba(30, 144, 255, 0) 100%
   );
-  filter: blur(40px);
   transform-origin: top center;
-  filter: blur(40px);
-  transform-origin: top center;
+  filter: blur(80px);
   @include media(tablet) {
+    top: 0;
+    left: 50%;
+    height: 70%;
     width: 250px;
     height: 70%;
   }
