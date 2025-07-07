@@ -44,7 +44,8 @@ screen types:
 ) {
   &:hover,
   &:focus {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         0deg,
         rgba(31, 31, 31, 0.1) 0%,
         rgba(31, 31, 31, 0.1) 100%
@@ -62,25 +63,26 @@ screen types:
   text-overflow: ellipsis;
 }
 
-@mixin hover-shift(
-  $x: 0px,
-  $y: 0px,
-  $z: 0px,
-  $rotateX: 0deg,
-  $rotateY: 0deg,
-  $scale: 1.05
-) {
-  transition:
-    transform 0.8s cubic-bezier(0.25, 1, 0.5, 1),
-    filter 0.5s ease,
-    box-shadow 0.5s ease;
-  transform-style: preserve-3d;
-  will-change: transform;
+@mixin about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 48px;
+  padding: 8px 20px;
+  width: 96px;
+  height: 33px;
+  background: rgba(156, 158, 166, 0.17);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  @include media(tablet) {
+    width: 105px;
+    height: 36px;
+    margin-bottom: 24px;
+  }
 
-  .listContent:hover & {
-    transform: translate3d($x, $y, $z) rotateX($rotateX) rotateY($rotateY)
-      scale($scale);
-    filter: brightness(1.08) saturate(1.05);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  @include media(desktop) {
+    width: 114px;
+    height: 38px;
   }
 }
