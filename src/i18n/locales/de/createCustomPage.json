@@ -1,0 +1,26 @@
+{
+  "sectionTitle": "Werte",
+  "mainTitle": "Mein Ansatz sind keine Vorlagen, sondern Lösungen, die auf konkrete Geschäftsziele zugeschnitten sind",
+  "items": [
+    {
+      "icon": "icon-programming",
+      "title": "Individuelle Lösungen",
+      "description": "Ich verwende keine Vorlagen. Jede Website ist eine maßgeschneiderte Lösung für konkrete Geschäftsziele, Zielgruppen und Produkte. Ich analysiere die Aufgabe gründlich, damit das Ergebnis für Sie und Ihre Marke funktioniert."
+    },
+    {
+      "icon": "icon-interface",
+      "title": "Starker visueller Stil",
+      "description": "Dank meines Hintergrunds in der Videoproduktion kann ich visuelle Lösungen entwickeln, die Aufmerksamkeit erregen und Ihr Image stärken. Meine Websites sehen modern und professionell aus und schaffen sofort Vertrauen."
+    },
+    {
+      "icon": "icon-desktop",
+      "title": "Modernes UX",
+      "description": "Der Nutzer soll nicht überlegen müssen, wie man Ihre Website bedient. Ich gestalte eine logische, intuitive Struktur, die ihn zur gewünschten Aktion führt: Kontaktaufnahme, Kauf oder Anfrage. Ihre Website wird auch für neue Besucher benutzerfreundlich sein."
+    },
+    {
+      "icon": "icon-content",
+      "title": "SEO und Analyse",
+      "description": "Ich schaffe die Grundlage für Ergebnisse – visuell und technisch. Framevix-Websites sind suchmaschinenoptimiert, schnell und bereit für Analysen. Sie erhalten mehr als eine schöne Präsentation – ein effektives Verkaufsinstrument."
+    }
+  ]
+}

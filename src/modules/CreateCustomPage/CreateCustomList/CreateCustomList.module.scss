@@ -1,0 +1,13 @@
+.ulList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  max-width: 100%;
+  @include media(tablet) {
+    gap: 20px;
+  }
+  @include media(desktop) {
+    gap: 24px;
+  }
+}

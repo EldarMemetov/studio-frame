@@ -86,3 +86,17 @@ screen types:
     height: 38px;
   }
 }
+@mixin title-info {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 40px;
+  @include media(tablet) {
+    font-size: 24px;
+    margin-bottom: 64px;
+  }
+  @include media(desktop) {
+    font-size: 32px;
+  }
+}

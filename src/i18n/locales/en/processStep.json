@@ -1,0 +1,29 @@
+{
+  "sectionTitle": "Process",
+  "mainTitle": "I create websites that help attract clients and grow online",
+  "description": "From idea to launch and support — I handle the entire process:",
+  "steps": [
+    {
+      "title": "Business immersion and strategy",
+      "description": "Market research, competitor analysis, goal setting."
+    },
+    {
+      "title": "Design and prototype",
+      "description": "UI/UX design tailored to your needs, responsive for all devices."
+    },
+    {
+      "title": "Development and integrations",
+      "description": "Technical implementation, CRM and payment systems integration."
+    },
+    {
+      "title": "Optimization and launch",
+      "description": "Speed, SEO, testing — and going live."
+    },
+    {
+      "title": "Support and growth",
+      "description": "Updates, SEO promotion, and scaling."
+    }
+  ],
+  "buttonTitle": "Ready to discuss your project?",
+  "buttonDescription": "Get a free consultation"
+}

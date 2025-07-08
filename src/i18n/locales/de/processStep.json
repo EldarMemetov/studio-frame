@@ -1,0 +1,29 @@
+{
+  "sectionTitle": "Prozess",
+  "mainTitle": "Ich erstelle Websites, die helfen, Kunden zu gewinnen und online zu wachsen",
+  "description": "Von der Idee bis zum Start und Support – ich übernehme den gesamten Prozess:",
+  "steps": [
+    {
+      "title": "Eintauchen in das Geschäft und die Strategie",
+      "description": "Marktforschung, Wettbewerbsanalyse, Zieldefinition."
+    },
+    {
+      "title": "Design und Prototyp",
+      "description": "UI/UX-Design für Ihre Anforderungen, responsiv für alle Geräte."
+    },
+    {
+      "title": "Entwicklung und Integrationen",
+      "description": "Technische Umsetzung, Integration von CRM- und Zahlungssystemen."
+    },
+    {
+      "title": "Optimierung und Launch",
+      "description": "Geschwindigkeit, SEO, Tests – und online gehen."
+    },
+    {
+      "title": "Support und Weiterentwicklung",
+      "description": "Updates, SEO-Optimierung und Skalierung."
+    }
+  ],
+  "buttonTitle": "Bereit, Ihr Projekt zu besprechen?",
+  "buttonDescription": "Erhalten Sie eine kostenlose Beratung"
+}

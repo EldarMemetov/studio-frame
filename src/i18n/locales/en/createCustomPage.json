@@ -1,0 +1,26 @@
+{
+  "sectionTitle": "Values",
+  "mainTitle": "My approach is not templates, but solutions tailored to specific business goals",
+  "items": [
+    {
+      "icon": "icon-programming",
+      "title": "Custom Solutions",
+      "description": "I don’t use templates. Each website is a unique solution created for specific business goals, target audience, and product. I thoroughly analyze the task to ensure the result works for you and your brand."
+    },
+    {
+      "icon": "icon-interface",
+      "title": "Strong Visual Style",
+      "description": "Thanks to my background in video production, I can create visual solutions that grab attention and enhance your image. My websites look modern, professional, and build trust from the first glance."
+    },
+    {
+      "icon": "icon-desktop",
+      "title": "Modern UX",
+      "description": "Users shouldn’t have to figure out how to use your site. I design a logical, intuitive structure that guides them to the desired action: contact, purchase, or request. Your website will be user-friendly, even for first-time visitors."
+    },
+    {
+      "icon": "icon-content",
+      "title": "SEO and Analytics",
+      "description": "I lay the foundation for results — visually and technically. Framevix websites are optimized for search engines, load fast, and are analytics-ready. You get more than a beautiful storefront — a full-fledged sales tool."
+    }
+  ]
+}

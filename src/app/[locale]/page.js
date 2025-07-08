@@ -23,9 +23,9 @@ export default async function Home({ params: rawParams }) {
       <ScrollToHash>
         <HeroSection locale={locale} />
         <DisplayCompanyFacts locale={locale} />
-        <AboutSection />
-        <CreateCustomPage />
-        <ProcessStep />
+        <AboutSection locale={locale} />
+        <CreateCustomPage locale={locale} />
+        <ProcessStep locale={locale} />
         <FaqSection />
         <PortfolioSection locale={locale} />
         <ServicesSection />

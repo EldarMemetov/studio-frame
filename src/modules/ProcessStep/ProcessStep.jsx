@@ -1,66 +1,82 @@
 import Container from '@/shared/container/Container';
-
+import s from './ProcessStep.module.scss';
+import Link from 'next/link';
+import Icon from '@/shared/Icon/Icon';
 export default function ProcessStep() {
   return (
-    <section>
+    <section className={s.section}>
       <Container>
-        <div>
-          <div>
-            <span>Процес</span>
+        <div className={s.bigContainer}>
+          <div className={s.stepsContainer}>
+            <span className={s.spanInfo}>Процес</span>
           </div>
 
-          <h2>
+          <h2 className={s.title}>
             Я створюю сайти, які допомагають залучати клієнтів і зростати онлайн
           </h2>
-          <h3>Від ідеї до запуску та підтримки — беру весь процес на себе:</h3>
+          <h3 className={s.description}>
+            Від ідеї до запуску та підтримки — беру весь процес на себе:
+          </h3>
 
-          <ul>
-            <li>
-              <div>
-                <span>1 |</span>
-                <h4>Занурення в бізнес та стратегію</h4>
+          <ul className={s.containerItemList}>
+            <li className={s.listItem}>
+              <div className={s.containerContent}>
+                <span className={s.number}>1 |</span>
+                <h4 className={s.info}>Занурення в бізнес та стратегію</h4>
               </div>
-              <p>Дослідження ринку, аналіз конкурентів, визначення цілей.</p>
+              <p className={s.titleInfo}>
+                Дослідження ринку, аналіз конкурентів, визначення цілей.
+              </p>
             </li>
-            <li>
-              <div>
-                <span>2 |</span>
-                <h4>Дизайн та прототип</h4>
+            <li className={s.listItem}>
+              <div className={s.containerContent}>
+                <span className={s.number}>2 |</span>
+                <h4 className={s.info}>Дизайн та прототип</h4>
               </div>
-              <p>
+              <p className={s.titleInfo}>
                 UI/UX-дизайн під ваші задачі, адаптивність для всіх пристроїв.
               </p>
             </li>
-            <li>
-              <div>
-                <span>3 |</span>
-                <h4>Розробка та інтеграції</h4>
+            <li className={s.listItem}>
+              <div className={s.containerContent}>
+                <span className={s.number}>3 |</span>
+                <h4 className={s.info}>Розробка та інтеграції</h4>
               </div>
-              <p>Технічна реалізація, підключення CRM, платіжних систем.</p>
+              <p className={s.titleInfo}>
+                Технічна реалізація, підключення CRM, платіжних систем.
+              </p>
             </li>
-            <li>
-              <div>
-                <span>4 |</span>
-                <h4>Оптимізація та запуск</h4>
+            <li className={s.listItem}>
+              <div className={s.containerContent}>
+                <span className={s.number}>4 |</span>
+                <h4 className={s.info}>Оптимізація та запуск</h4>
               </div>
-              <p>Швидкість, SEO, тестування — і вихід у онлайн.</p>
+              <p className={s.titleInfo}>
+                Швидкість, SEO, тестування — і вихід у онлайн.
+              </p>
             </li>
-            <li>
-              <div>
-                <span>5 |</span>
-                <h4>Підтримка та розвиток</h4>
+            <li className={s.listItem}>
+              <div className={s.containerContent}>
+                <span className={s.number}>5 |</span>
+                <h4 className={s.info}>Підтримка та розвиток</h4>
               </div>
-              <p>Оновлення, SEO-просування, масштабування.</p>
+              <p className={s.titleInfo}>
+                Оновлення, SEO-просування, масштабування.
+              </p>
+            </li>
+            <li className={s.containerButton}>
+              <h3 className={s.buttonTitle}>Готові обговорити ваш проєкт?</h3>
+              <div className={s.containerItem}>
+                <p className={s.buttonInfo}>Отримай безкоштовну консультацію</p>
+
+                <Link href="/#contact" passHref>
+                  <button className={s.button} type="button">
+                    <Icon iconName="icon-arrows-right" className={s.icon} />
+                  </button>
+                </Link>
+              </div>
             </li>
           </ul>
-
-          <div>
-            <h3></h3>
-            <div>
-              <p></p>
-              <button></button>
-            </div>
-          </div>
         </div>
       </Container>
     </section>

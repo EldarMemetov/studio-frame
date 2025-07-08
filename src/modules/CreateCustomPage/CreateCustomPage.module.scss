@@ -1,5 +1,34 @@
-.icon {
-  width: 28px;
-  height: 28px;
-  stroke: #354fff;
+.section {
+  padding-bottom: 160px;
+  position: relative;
+  z-index: 1;
+  @include media(desktop) {
+    padding-bottom: 200px;
+  }
+}
+.bigContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutContainer {
+  @include about-container;
+}
+.spanInfo {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  @include media(tablet) {
+    font-size: 14px;
+  }
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+.title {
+  @include title-info;
+  @include media(desktop) {
+    width: 700px;
+  }
 }
