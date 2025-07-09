@@ -10,7 +10,6 @@ export default async function DisplayCompanyFacts({ locale }) {
   return (
     <section className={s.factsSection}>
       <Particles className={s.particles} />
-
       <Container>
         <div className={s.rays}>
           <span className={s.ray}></span>
@@ -32,8 +31,8 @@ export default async function DisplayCompanyFacts({ locale }) {
               id="magic-planet"
               src="/image/planet.png"
               alt="planet"
-              width={1150}
-              height={226}
+              width={412}
+              height={83}
               className={`${s.imageL} magic-planet`}
               priority
             />
@@ -63,8 +62,8 @@ export default async function DisplayCompanyFacts({ locale }) {
               id="magic-planet"
               src="/image/planet.png"
               alt="planet"
-              width={1150}
-              height={226}
+              width={412}
+              height={83}
               className={`${s.imageR} magic-planet`}
               priority
             />

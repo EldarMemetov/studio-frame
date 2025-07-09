@@ -108,6 +108,7 @@
 .factsWrapper {
   position: relative;
   z-index: 2;
+  overflow-x: hidden;
 }
 
 .image {
@@ -190,10 +191,9 @@
 .ray {
   position: absolute;
   top: -500px;
-  left: 22%;
   height: 1200px;
   width: 200px;
-
+  left: calc((100vw - 1280px) / 2 + 530px);
   background: linear-gradient(
     to bottom,
     rgba(109, 34, 255, 0) 0%,
@@ -206,16 +206,24 @@
   );
   transform-origin: top center;
   filter: blur(80px);
+  background-repeat: no-repeat;
+  background-size: 200px 1200px;
+  background-position: top center;
+  filter: blur(80px);
+  transform-origin: top center;
   @include media(tablet) {
-    top: 0;
+    top: 80px;
     left: 50%;
     height: 70%;
     width: 250px;
     height: 70%;
+    background-size: 200px 300px;
   }
   @include media(desktop) {
+    top: 190px;
     width: 420px;
     height: 120%;
+    background-size: 400px 500px;
   }
   .ray:nth-child(1) {
     transform: translateX(-50%) rotate(-12deg);

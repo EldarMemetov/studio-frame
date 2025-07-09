@@ -1,7 +1,9 @@
 {
-  "about": "About",
-  "services": "Services",
+  "about": "Über uns",
+  "services": "Dienstleistungen",
   "portfolio": "Portfolio",
   "blog": "Blog",
-  "contact": "Contact"
+  "contact": "Kontakt",
+  "button": "Kontakt aufnehmen",
+  "title": "NOCH FRAGEN?"
 }

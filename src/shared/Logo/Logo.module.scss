@@ -9,9 +9,12 @@
 .logo {
   object-fit: contain;
 
-  width: 32px;
-  height: 34px;
-
+  width: 23px;
+  height: 24px;
+  @include media(tablet) {
+    width: 32px;
+    height: 33px;
+  }
   .footer & {
     width: 50px;
     height: 50px;
@@ -25,9 +28,13 @@
 
 .logoText {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 140%;
   text-transform: uppercase;
+  @include media(tablet) {
+    font-size: 20px;
+    line-height: 140%;
+  }
 
   .footer & {
     @include font(36, 50);
