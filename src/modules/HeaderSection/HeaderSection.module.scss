@@ -125,6 +125,7 @@
   align-items: center;
   justify-content: space-between;
   width: 338px;
+  max-width: 100%;
   @include media(tablet) {
     width: 640px;
   }

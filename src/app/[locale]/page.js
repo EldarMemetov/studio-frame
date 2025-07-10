@@ -10,6 +10,7 @@ import ScrollToHash from '@/shared/ScrollToHash/ScrollToHash';
 import DisplayCompanyFacts from '@/modules/DisplayCompanyFacts/DisplayCompanyFacts';
 import CreateCustomPage from '@/modules/CreateCustomPage/CreateCustomPage';
 import ProcessStep from '@/modules/ProcessStep/ProcessStep';
+import CtaSection from '@/modules/CtaSection/CtaSection';
 
 export default async function Home({ params: rawParams }) {
   const params = await rawParams;
@@ -26,7 +27,8 @@ export default async function Home({ params: rawParams }) {
         <AboutSection locale={locale} />
         <CreateCustomPage locale={locale} />
         <ProcessStep locale={locale} />
-        <ServicesSection />
+        <ServicesSection locale={locale} />
+        <CtaSection locale={locale} />
         <FaqSection />
         <PortfolioSection locale={locale} />
         <OrDevelopment locale={locale} />
