@@ -1,29 +1,29 @@
 {
-  "sectionTitle": "Prozess",
-  "mainTitle": "Ich erstelle Websites, die helfen, Kunden zu gewinnen und online zu wachsen",
-  "description": "Von der Idee bis zum Start und Support – ich übernehme den gesamten Prozess:",
+  "process": "Prozess",
+  "title": "Ich erstelle Websites, die Kunden anziehen und online wachsen lassen",
+  "description": "Von der Idee bis zum Launch und Support – ich übernehme den gesamten Prozess:",
   "steps": [
     {
-      "title": "Eintauchen in das Geschäft und die Strategie",
-      "description": "Marktforschung, Wettbewerbsanalyse, Zieldefinition."
+      "title": "Eintauchen ins Business und Strategie",
+      "text": "Marktforschung, Wettbewerbsanalyse, Zieldefinition."
     },
     {
       "title": "Design und Prototyp",
-      "description": "UI/UX-Design für Ihre Anforderungen, responsiv für alle Geräte."
+      "text": "UI/UX-Design nach Ihren Anforderungen, responsiv für alle Geräte."
     },
     {
       "title": "Entwicklung und Integrationen",
-      "description": "Technische Umsetzung, Integration von CRM- und Zahlungssystemen."
+      "text": "Technische Umsetzung, Anbindung von CRM- und Zahlungssystemen."
     },
     {
       "title": "Optimierung und Launch",
-      "description": "Geschwindigkeit, SEO, Tests – und online gehen."
+      "text": "Performance, SEO, Testing – und ab ins Netz."
     },
     {
       "title": "Support und Weiterentwicklung",
-      "description": "Updates, SEO-Optimierung und Skalierung."
+      "text": "Updates, SEO-Optimierung, Skalierung."
     }
   ],
-  "buttonTitle": "Bereit, Ihr Projekt zu besprechen?",
-  "buttonDescription": "Erhalten Sie eine kostenlose Beratung"
+  "cta_title": "Bereit, Ihr Projekt zu besprechen?",
+  "cta_text": "Erhalten Sie eine kostenlose Beratung"
 }

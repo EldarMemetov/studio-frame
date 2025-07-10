@@ -1,0 +1,10 @@
+.containerItemList {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}

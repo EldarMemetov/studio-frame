@@ -1,0 +1,46 @@
+{
+  "sectionTitle": "Services",
+  "mainTitle": "Functional and effective solutions tailored to your needs",
+  "items": [
+    {
+      "icon": "icon-edit-pin",
+      "title": "Conversion‑focused landing page",
+      "description": "A single‑page website that drives leads or sales."
+    },
+    {
+      "icon": "icon-money-cash",
+      "title": "Corporate website",
+      "description": "For growing businesses online. Multi‑page structure, analytics, fast performance."
+    },
+    {
+      "icon": "icon-user-circle",
+      "title": "Expert website",
+      "description": "For coaches, bloggers, professionals. Builds trust and integrates with social media."
+    },
+    {
+      "icon": "icon-shopping-bag",
+      "title": "Online store",
+      "description": "Sales‑driven eCommerce solutions: CRM, online payments, SEO, filters."
+    },
+    {
+      "icon": "icon-interface-loading",
+      "title": "Website redesign",
+      "description": "Analysis, updated UX/UI, improved conversions."
+    },
+    {
+      "icon": "icon-programming",
+      "title": "UI/UX design",
+      "description": "Prototypes, design systems, responsiveness. Clean style, result‑focused."
+    },
+    {
+      "icon": "icon-money-graph",
+      "title": "SEO optimization",
+      "description": "Technical audit, optimization, keywords. Higher rankings on Google."
+    },
+    {
+      "icon": "icon-security",
+      "title": "Support & growth",
+      "description": "Updates, security, new features. I stay in touch post‑launch."
+    }
+  ]
+}

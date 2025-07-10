@@ -37,6 +37,8 @@ export const NAMESPACES = [
   'heroBlog',
   'aboutSection',
   'createCustomPage',
+  'processStep',
+  'servicesSection',
 ];
 
 export const FLIPPED_TIME_MS = 15000;

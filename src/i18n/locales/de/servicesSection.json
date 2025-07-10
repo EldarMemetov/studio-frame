@@ -1,0 +1,46 @@
+{
+  "sectionTitle": "Leistungen",
+  "mainTitle": "Funktionale und effektive Lösungen für Ihre Anforderungen",
+  "items": [
+    {
+      "icon": "icon-edit-pin",
+      "title": "Conversion‑optimierte Landingpage",
+      "description": "Eine einseitige Website, die zu Anfragen oder Verkäufen führt."
+    },
+    {
+      "icon": "icon-money-cash",
+      "title": "Unternehmenswebsite",
+      "description": "Für wachsende Online‑Geschäfte. Mehrseitige Struktur, Analytics, schnelle Performance."
+    },
+    {
+      "icon": "icon-user-circle",
+      "title": "Experten‑Website",
+      "description": "Für Coaches, Blogger und Fachleute. Baut Vertrauen auf, Integration mit sozialen Netzwerken."
+    },
+    {
+      "icon": "icon-shopping-bag",
+      "title": "Online‑Shop",
+      "description": "Verkaufsstarke eCommerce‑Lösungen: CRM, Online‑Zahlung, SEO, Filter."
+    },
+    {
+      "icon": "icon-interface-loading",
+      "title": "Website‑Relaunch",
+      "description": "Analyse, aktualisiertes UX/UI, höhere Konversion."
+    },
+    {
+      "icon": "icon-programming",
+      "title": "UI/UX‑Design",
+      "description": "Prototypen, Designsysteme, responsives Layout. Klarer Stil, Ergebnisfokus."
+    },
+    {
+      "icon": "icon-money-graph",
+      "title": "SEO‑Optimierung",
+      "description": "Technisches Audit, Optimierung, Keywords. Bessere Google‑Rankings."
+    },
+    {
+      "icon": "icon-security",
+      "title": "Support & Weiterentwicklung",
+      "description": "Updates, Sicherheit, neue Funktionen. Ich bleibe auch nach dem Launch ansprechbar."
+    }
+  ]
+}

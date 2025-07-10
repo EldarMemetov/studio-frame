@@ -1,0 +1,61 @@
+.listItem {
+  position: relative;
+  border-radius: 24px;
+  padding: 24px;
+  width: 338px;
+  height: 170px;
+  background: #000116;
+  z-index: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 24px;
+    padding: 1px;
+    background: linear-gradient(to bottom, #a3a3a3, #474343);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  @include media(tablet) {
+    width: 628px;
+    height: 130px;
+  }
+  @include media(desktop) {
+    width: 628px;
+    height: 130px;
+  }
+}
+.containerContent {
+  display: flex;
+  gap: 12px;
+}
+.number {
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 100%;
+  color: #0732f6;
+  flex-shrink: 0;
+}
+.info {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 12px;
+  @include media(tablet) {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+.titleInfo {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  color: #b3b3b3;
+}
