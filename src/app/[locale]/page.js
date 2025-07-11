@@ -29,7 +29,7 @@ export default async function Home({ params: rawParams }) {
         <ProcessStep locale={locale} />
         <ServicesSection locale={locale} />
         <CtaSection locale={locale} />
-        <FaqSection />
+        <FaqSection locale={locale} />
         <PortfolioSection locale={locale} />
         <OrDevelopment locale={locale} />
         <Feedback />

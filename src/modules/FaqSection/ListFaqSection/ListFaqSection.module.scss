@@ -1,0 +1,9 @@
+.ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+  @include media(desktop) {
+    gap: 24px;
+  }
+}

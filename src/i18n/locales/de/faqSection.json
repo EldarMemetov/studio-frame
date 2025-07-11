@@ -1,0 +1,26 @@
+{
+  "sectionTitle": "FAQ",
+  "mainTitle": "Die häufigsten Fragen, die Ihnen helfen, unseren Ansatz besser zu verstehen.",
+  "items": [
+    {
+      "question": "Welche Phasen umfasst die Website-Entwicklung?",
+      "answer": "Zuerst definieren wir die Ziele und Struktur der zukünftigen Website, erstellen das Design und den Prototyp. Dann beginnen wir mit der Entwicklung, optimieren die Seite für SEO, testen und veröffentlichen sie. Nach dem Start bieten wir Support und helfen beim weiteren Wachstum."
+    },
+    {
+      "question": "Arbeiten Sie mit Kunden im Ausland?",
+      "answer": "Ja, wir erstellen Websites für Unternehmen weltweit. Sie können Ihre Website aus jedem Land bestellen — wir organisieren den gesamten Prozess online: von der Beratung bis zum Projektstart."
+    },
+    {
+      "question": "Kann ich ein Redesign meiner bestehenden Website beauftragen?",
+      "answer": "Ja, wir bieten Website-Redesigns an. Zuerst führen wir ein Audit Ihrer aktuellen Seite durch, identifizieren Stärken und Schwächen. Dann aktualisieren wir das Design, verbessern die UX und optimieren für SEO und Geschwindigkeit."
+    },
+    {
+      "question": "Wird die Website für Mobilgeräte optimiert sein?",
+      "answer": "Ja, auf jeden Fall. Da die meisten Nutzer über mobile Geräte zugreifen, sind all unsere Websites vollständig responsiv — sie sehen auf Smartphones, Tablets und Desktops gleichermaßen gut aus und funktionieren einwandfrei."
+    },
+    {
+      "question": "Wie viel kostet eine schlüsselfertige Website?",
+      "answer": "Der Preis hängt vom Typ der Website (Landingpage, Unternehmensseite, Onlineshop), der Designkomplexität und dem Funktionsumfang ab. Nach einer kostenlosen Beratung erstellen wir ein detailliertes Angebot mit Budgetplanung. Fordern Sie eine Beratung an — wir finden die optimale Lösung für Ihre Anforderungen."
+    }
+  ]
+}

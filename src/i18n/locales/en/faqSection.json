@@ -1,0 +1,26 @@
+{
+  "sectionTitle": "FAQ",
+  "mainTitle": "The most common questions to help you better understand our approach.",
+  "items": [
+    {
+      "question": "What are the stages of website development?",
+      "answer": "First, we define the goals and structure of the future website, create the design and prototype. Then we begin development, optimize the site for SEO, test, and launch. After launch, we provide support and help with growth."
+    },
+    {
+      "question": "Do you work with clients abroad?",
+      "answer": "Yes, we create websites for businesses all over the world. You can order a website from any country — we manage the whole process online: from consultations to project launch."
+    },
+    {
+      "question": "Can I order a redesign of my existing website?",
+      "answer": "Yes, we do website redesigns. First, we audit your current site and identify strengths and weaknesses. Then we update the design, improve UX, and optimize for SEO and performance — so your site works more effectively."
+    },
+    {
+      "question": "Will the site be mobile-friendly?",
+      "answer": "Absolutely. Most users access websites from mobile devices, so all our sites are fully responsive — they look and work equally well on phones, tablets, and desktops."
+    },
+    {
+      "question": "How much does a turnkey website cost?",
+      "answer": "The price depends on the type of site (landing, corporate, e-commerce), design complexity, and functionality. After a free consultation, we'll prepare a detailed offer with a budget estimate. Order a consultation — we'll find the best solution for your needs."
+    }
+  ]
+}

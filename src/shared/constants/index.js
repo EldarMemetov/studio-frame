@@ -39,6 +39,8 @@ export const NAMESPACES = [
   'createCustomPage',
   'processStep',
   'servicesSection',
+  'faqSection',
+  'ctaSection',
 ];
 
 export const FLIPPED_TIME_MS = 15000;

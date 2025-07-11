@@ -6,3 +6,40 @@
     padding-bottom: 200px;
   }
 }
+.stepsContainer {
+  @include about-container;
+}
+.spanInfo {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+
+  @include media(tablet) {
+    font-size: 14px;
+  }
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+.title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 40px;
+  @include media(tablet) {
+    font-size: 24px;
+    margin-bottom: 64px;
+  }
+  @include media(desktop) {
+    font-size: 32px;
+    margin-bottom: 80px;
+    width: 800px;
+  }
+}
+.bigContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
