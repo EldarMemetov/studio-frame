@@ -25,6 +25,7 @@
     "react-dom": "^19.0.0",
     "react-i18next": "^15.5.3",
     "sass": "^1.89.2",
+    "swiper": "^11.2.10",
     "yup": "^1.6.1"
   },
   "devDependencies": {
