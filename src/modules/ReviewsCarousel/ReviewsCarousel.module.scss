@@ -1,0 +1,67 @@
+.section {
+  padding-bottom: 160px;
+  position: relative;
+  z-index: 1;
+  @include media(desktop) {
+    padding-bottom: 200px;
+  }
+}
+.stepsContainer {
+  @include about-container;
+}
+.spanInfo {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+
+  @include media(tablet) {
+    font-size: 14px;
+  }
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+.title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 40px;
+  @include media(tablet) {
+    font-size: 24px;
+    margin-bottom: 64px;
+    width: 400px;
+  }
+  @include media(desktop) {
+    font-size: 32px;
+    margin-bottom: 80px;
+    width: 500px;
+  }
+}
+.bigContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.reviewsImg {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  pointer-events: none;
+  width: 253px;
+  height: 163px;
+  @include media(tablet) {
+    width: 474px;
+    height: 306px;
+    top: -80px;
+  }
+  @include media(desktop) {
+    width: 593px;
+    height: 384px;
+    top: -100px;
+  }
+}

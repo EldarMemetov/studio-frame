@@ -41,6 +41,8 @@ export const NAMESPACES = [
   'servicesSection',
   'faqSection',
   'ctaSection',
+  'ctaBlog',
+  'reviews',
 ];
 
 export const FLIPPED_TIME_MS = 15000;

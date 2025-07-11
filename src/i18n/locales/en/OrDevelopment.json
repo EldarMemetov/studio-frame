@@ -36,14 +36,5 @@
     "subList": [
       "This is a solution for those who are building not just a website, but a growth tool."
     ]
-  },
-  "conclusion": {
-    "beforeOne": "Don’t choose the ",
-    "beforeTwo": "“best” ",
-    "beforeThree": "— choose what ",
-    "beforeFour": "works for you."
-  },
-  "buttons": {
-    "textBlog": "Read more in the blog"
   }
 }

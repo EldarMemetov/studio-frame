@@ -13,31 +13,32 @@
 }
 .title {
   font-weight: 400;
-  font-size: 32px;
+  font-size: 20px;
   line-height: 140%;
   text-align: center;
-
+  margin-bottom: 40px;
   @include media(tablet) {
-    font-size: 64px;
-    line-height: 130%;
-    margin-bottom: 40px;
+    font-size: 24px;
+    margin-bottom: 64px;
   }
   @include media(desktop) {
-    font-size: 80px;
-    line-height: 130%;
+    font-size: 32px;
   }
 }
 .containerSpan {
-  margin-bottom: 24px;
+  @include about-container;
 }
 .titleSpan {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 140%;
-  border-radius: 48px;
-  padding: 8px 20px;
-  background: #000116;
-  border: 1px solid rgb(87, 85, 85);
+
+  @include media(tablet) {
+    font-size: 14px;
+  }
+  @include media(desktop) {
+    font-size: 16px;
+  }
 }
 
 .description {
@@ -60,25 +61,7 @@
   font-weight: 600;
   color: #fff;
 }
-.conclusion {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 146%;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 32px;
-  @include media(tablet) {
-    font-size: 32px;
-    line-height: 146%;
-    margin-bottom: 40px;
-  }
-}
-.spanConclusion {
-  background: linear-gradient(30deg, #9624e2 0%, #02079d 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .containerConstructor {
   margin-bottom: 64px;
   @include media(tablet) {
@@ -97,27 +80,7 @@
     margin-bottom: 100px;
   }
 }
-.containerButton {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  @include media(tablet) {
-    flex-direction: row;
-    gap: 20px;
-  }
-  @include media(desktop) {
-    gap: 24px;
-    flex-direction: column;
-  }
-}
-.conclusionWrapper {
-  @include media(tablet) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
+
 .containerContent {
   @include media(desktop) {
     display: flex;

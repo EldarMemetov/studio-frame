@@ -1,0 +1,24 @@
+{
+  "sectionTitle": "Kundenstimmen",
+  "mainTitle": "Ich schätze jede Zusammenarbeit – hier ein paar Worte von Kunden.",
+  "reviews": [
+    {
+      "text": "Die Website wurde schnell und präzise umgesetzt. Responsives Design, keine Bugs. Er hat uns auch bei der SEO-Optimierung des Inhalts geholfen.",
+      "photo": "/image/reviews/eldar.jpg",
+      "firstName": "Serhii",
+      "lastName": "Hnatenko"
+    },
+    {
+      "text": "Das Projekt wurde richtig stilvoll – aufgeräumtes UI, moderne Animationen und ein benutzerfreundliches CMS. Unsere Website wirkt jetzt richtig professionell.",
+      "photo": "/image/reviews/eldar.jpg",
+      "firstName": "Natalia",
+      "lastName": "Koval"
+    },
+    {
+      "text": "Ich kam für eine Website – und er macht auch noch Videos! Habe nicht nur eine hochwertige Landingpage bekommen, sondern auch einen Werbeclip. Professionell und auf den Punkt.",
+      "photo": "/image/reviews/eldar.jpg",
+      "firstName": "Dmytro",
+      "lastName": "Zakharchuk"
+    }
+  ]
+}

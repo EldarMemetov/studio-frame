@@ -50,25 +50,6 @@ export default async function OrDevelopment({ locale }) {
             />
           </div>
         </div>
-
-        <div className={s.conclusionWrapper}>
-          <h4 className={s.conclusion}>
-            {t('conclusion.beforeOne')}
-            <span className={s.spanConclusion}>
-              {t('conclusion.beforeTwo')}
-            </span>
-            <br />
-            <span>{t('conclusion.beforeThree')}</span>
-            <span className={s.spanConclusion}>
-              {t('conclusion.beforeFour')}
-            </span>
-          </h4>
-          <div className={s.containerButton}>
-            <Link href={`/${LINKDATA.Blog}`}>
-              <Button variant="variant1"> {t('buttons.textBlog')} </Button>
-            </Link>
-          </div>
-        </div>
       </Container>
     </section>
   );

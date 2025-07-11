@@ -11,6 +11,7 @@ import DisplayCompanyFacts from '@/modules/DisplayCompanyFacts/DisplayCompanyFac
 import CreateCustomPage from '@/modules/CreateCustomPage/CreateCustomPage';
 import ProcessStep from '@/modules/ProcessStep/ProcessStep';
 import CtaSection from '@/modules/CtaSection/CtaSection';
+import ReviewsCarousel from '@/modules/ReviewsCarousel/ReviewsCarousel';
 
 export default async function Home({ params: rawParams }) {
   const params = await rawParams;
@@ -29,9 +30,11 @@ export default async function Home({ params: rawParams }) {
         <ProcessStep locale={locale} />
         <ServicesSection locale={locale} />
         <CtaSection locale={locale} />
-        <FaqSection locale={locale} />
         <PortfolioSection locale={locale} />
+        <ReviewsCarousel locale={locale} />
+        <FaqSection locale={locale} />
         <OrDevelopment locale={locale} />
+        <CtaSection locale={locale} namespace={'ctaBlog'} />
         <Feedback />
       </ScrollToHash>
     </div>

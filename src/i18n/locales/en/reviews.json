@@ -1,0 +1,24 @@
+{
+  "sectionTitle": "Reviews",
+  "mainTitle": "I value every collaboration — here’s what some clients say.",
+  "reviews": [
+    {
+      "text": "The website was built quickly and precisely. Responsive design, no bugs. He also suggested great ways to optimize the content for SEO.",
+      "photo": "/image/reviews/eldar.jpg",
+      "firstName": "Serhii",
+      "lastName": "Hnatenko"
+    },
+    {
+      "text": "The project turned out super stylish — clean UI, smooth modern animation, and an easy-to-use CMS. Now our site looks truly professional.",
+      "photo": "/image/reviews/eldar.jpg",
+      "firstName": "Nataliia",
+      "lastName": "Koval"
+    },
+    {
+      "text": "I came for a website — turns out he also does video! Got not only a solid landing page, but also a promo video for our ads. Professional and straight to the point.",
+      "photo": "/image/reviews/eldar.jpg",
+      "firstName": "Dmytro",
+      "lastName": "Zakharchuk"
+    }
+  ]
+}
