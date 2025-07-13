@@ -239,6 +239,70 @@
       background: rgba(1, 7, 42, 0.8);
     }
   }
+  &.variant8 {
+    color: #ffffff;
+    max-width: 298px;
+    border-radius: 40px;
+    padding: 12px 20px;
+    width: 100%;
+    height: 46px;
+    background: rgba(156, 158, 166, 0.17);
+
+    @include media(mobile) {
+      width: 298px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+    }
+
+    @include media(tablet) {
+      max-width: 100%;
+      padding: 16px 20px;
+      width: 560px;
+      height: 54px;
+    }
+
+    @include media(desktop) {
+      padding: 16px 20px;
+      width: 737px;
+      height: 54px;
+    }
+
+    &:hover {
+      background: rgba(1, 7, 42, 0.8);
+    }
+  }
+  &.variant9 {
+    color: #ffffff;
+    max-width: 298px;
+    border-radius: 40px;
+    padding: 12px 20px;
+    width: 100%;
+    height: 46px;
+    background: linear-gradient(180deg, #5820ff 0%, #22096d 100%);
+
+    @include media(mobile) {
+      width: 298px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+    }
+
+    @include media(tablet) {
+      max-width: 100%;
+      padding: 16px 20px;
+      width: 560px;
+      height: 54px;
+    }
+
+    @include media(desktop) {
+      padding: 16px 20px;
+      width: 737px;
+      height: 54px;
+    }
+
+    &:hover {
+      background: rgba(1, 7, 42, 0.8);
+    }
+  }
 }
 .spanClassName {
   font-weight: 400;

@@ -43,3 +43,259 @@
   align-content: center;
   align-items: center;
 }
+
+.inputWrapper {
+  position: relative;
+  display: inline-block;
+  padding: 6px;
+  border-radius: 32px;
+  width: fit-content;
+  max-width: 100%;
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 32px;
+    background: linear-gradient(
+      to bottom,
+      rgb(109 6 239 / 47%),
+      rgba(7, 50, 246, 0.1)
+    );
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    padding: 2px;
+    pointer-events: none;
+    z-index: 0;
+  }
+}
+
+.input {
+  position: relative;
+  z-index: 1;
+  padding: 8px 0px 8px 16px;
+  width: 290px;
+  height: 35px;
+  border-radius: 24px;
+  border: 1px solid rgba(7, 50, 246, 0.2);
+  background: rgba(1, 7, 42, 0.4);
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  box-sizing: border-box;
+  max-width: 100%;
+  @include media(tablet) {
+    width: 552px;
+    height: 44px;
+    font-size: 16px;
+  }
+
+  @include media(desktop) {
+    width: 348px;
+    height: 44px;
+  }
+}
+
+.inputLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.inputLabelText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.inputWrapperText {
+  position: relative;
+  display: block;
+  padding: 8px;
+  border-radius: 32px;
+  width: fit-content;
+  max-width: 100%;
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 32px;
+    background: linear-gradient(
+      to bottom,
+      rgb(109 6 239 / 47%),
+      rgba(7, 50, 246, 0.1)
+    );
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    padding: 2px;
+    pointer-events: none;
+    z-index: 0;
+  }
+}
+
+.textInput {
+  position: relative;
+  z-index: 1;
+  display: block;
+  padding: 12px 20px;
+  width: 282px;
+  height: 120px;
+  border-radius: 24px;
+  border: 1px solid rgba(7, 50, 246, 0.2);
+  background: rgba(1, 7, 42, 0.4);
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  box-sizing: border-box;
+  resize: none;
+  max-width: 100%;
+  @include media(tablet) {
+    width: 544px;
+    height: 120px;
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+  @include media(desktop) {
+    width: 721px;
+    height: 120px;
+    padding: 12px 20px;
+  }
+}
+.containerForm {
+  position: relative;
+  z-index: 0;
+  border-radius: 24px;
+  padding: 20px;
+  width: 338px;
+  background: rgba(156, 158, 166, 0.08);
+  max-width: 100%;
+  @include media(tablet) {
+    padding: 40px;
+    width: 640px;
+  }
+  @include media(desktop) {
+    padding: 40px;
+    width: 817px;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 24px;
+    padding: 1px;
+    background: linear-gradient(to bottom, #a3a3a3, #474343);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+.spanInfoInput {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.containerItem {
+  @include media(desktop) {
+    display: flex;
+    gap: 25px;
+  }
+}
+
+.input:focus,
+.textInput:focus {
+  border: 1px solid rgba(7, 50, 246, 0.8);
+  outline: none;
+}
+.inputWrapper:focus-within::before {
+  background: linear-gradient(to bottom, rgb(109 6 239), rgba(7, 50, 246, 0.1));
+}
+.inputWrapperText:focus-within::before {
+  background: linear-gradient(to bottom, rgb(109 6 239), rgba(7, 50, 246, 0.1));
+}
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 200;
+  font-size: 16px;
+  color: #b3b3b3;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.customCheckbox {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background: rgba(1, 7, 42, 0.8);
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+}
+
+.checkbox:focus + .customCheckbox {
+  color: #f5f5f5;
+}
+
+.checkbox:checked + .customCheckbox::after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 3px;
+  width: 6px;
+  height: 12px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox:checked + .customCheckbox {
+  background: linear-gradient(to bottom, #0732f6, #1a29f0);
+}
+
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.error {
+  color: red;
+  font-size: 10px;
+  font-weight: 300;
+  min-height: 14px;
+  margin-top: 4px;
+  margin-left: 20px;
+}
